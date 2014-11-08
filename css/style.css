@@ -1,0 +1,55 @@
+body {
+  background-color: #111d28;
+  padding: 0;
+  margin: 0;
+  background-image: -ms-radial-gradient(center top, circle farthest-corner, #3D5167 0%, #111D28 45%);
+  background-image: -moz-radial-gradient(center top, circle farthest-corner, #3D5167 0%, #111D28 45%);
+  background-image: -o-radial-gradient(center top, circle farthest-corner, #3D5167 0%, #111D28 45%);
+  background-image: radial-gradient(circle center top, #3D5167 0%, #111D28 45%);
+  background-image: -webkit-gradient(radial, center top, 0, center center, 497, color-stop(0, #3D5167), color-stop(.45, #111D28));
+  background-image: -webkit-radial-gradient(center top, circle farthest-corner, #3D5167 0%, #111D28 45%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+#page {
+  margin: auto;
+  width: 320px;
+  height: 480px;  
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+#container {
+  height: 480px;
+  width: 320px;
+}
+
+.date-info {
+  position: absolute;
+  top: 240px;
+  left: 160px;
+  width: 90px;
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+
+#time {
+  font-size: 34px;
+  height: 32px;
+  margin: -30px -45px;
+  line-height: 30px;
+}
+
+#date {
+  height: 26px;
+  margin: 2px -45px;
+}
